@@ -23,6 +23,7 @@
   ],
   "binary": {
     "module_name": "pty.js",
+    "module_path": "./build/{configuration}/",
     "host": "https://github.com/igor-lemon/pty.js/releases/download/1.0.0"
   },
   "scripts": {
