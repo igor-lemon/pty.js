@@ -80,7 +80,7 @@ install:
 - ps: >
     $env:DISABLE_PORT_FEATURE = "open.unlock,baudrate.25000"
 build_script:
-- npm install --build-from-source --msvs_version=2013
+- npm install --build-from-source --msvs_version=2015
 
 test_script:
 - ps: >
